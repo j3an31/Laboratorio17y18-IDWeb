@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+    margin: 0 0 3% 0;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #ffcb05;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 300px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background: #ef5350;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#mensaje {
+    color: red;
+    font-weight: bold;
+}
